@@ -1,0 +1,36 @@
+pada praktikum ini menggunakan AI chatGPT dan Claude
+
+hampir mirip dengan perintah yang tertera di google classroom. 
+    Buat program simulasi antrian di tempat pelayanan publik (misal: Bank) menggunakan struktur data Queue dengan ketentuan sebagai berikut:
+    1. Menggunakan bahasa Java dan Python
+    2. Menggunakan tampilan grafis (GUI)
+    3. Fitur ambil antrian, akan meminta input nama, adapun nomor akan digenerate secara otomatis (1,2,3,...dst)
+    4. Fitur tampilkan data yg ada dalam antrian (nomor dan nama)
+    5. Fitur panggil antrian (menampilkan dan memanggil nomor & nama), usahakan berupa panggilan suara
+    6. Boleh menggunakan fix-sized array atau linked list
+ada sedikit yang diubah yaitu nama class sesuai yang diinginkan.
+
+    aku menerapkan sistem antrian ini untuk antrian di dokter gigi.
+    aku memilih menu yang ditampilan nanti ada ambil antrian, tampilkan antrian, panggil antrian. 
+    kemudian ketika pas ambil antrian itu dia menampilkan kata dengan centang hijau bertuliskan succesfull yang artinya antrian itu berhasil diambil. 
+    dan ketika ingin menampilkan antrian nanti yang terlihat paling besar adalah antrian yang sedang terpanggil, yang lainnya berada dibawahnya dengan ukuran lebih kecil. 
+    coba kamu ubah  dari kode yang kamu kirim itu dengan menggunakan tampilan yang lebih menarik
+    oh atau diubah aja deh, jadi setelah ambil antrian tu otomatis nanti namanya di tampilkan di layar, baru nanti kalo tampilkan antrian itu kaya yang aku minta tadi  
+
+desain:
+    aku sudah punya gambaran desain lalu aku mengirimkan desain itu dan meminta dibuatkan mirip seperti itu.
+    aku juga memberikan color palette dengan kode RGB nya (lampiran gambar color palette).
+
+suara:
+    sesuai dengan perintah, maka buat biar nanti bisa bersuara, aku ingin seperti cewek pembaca google maps itu dengan aksen bahasa indonesia.
+karena di java lumayan rumit untuk membuat agar bersuara dengan aksen indo (dia bisa kalau inggris, original windows), maka dibuat file python baru yaitu tts.py, ini pokoknya buat biar dia bisa bersuara mengeja itu
+    yang java nyambungin ke python di cmd karena python ada library suara, 
+    pythonnya disambung ke library, 
+    java sambung ke python lewat cmd tp nulisnya di vsc ajaa
+lalu instal pip install gtts pygame
+buat file baru tts.py
+tes di cmd, kalo blum bisa jadi upgrade : pip install pygame --upgrade
+
+
+kurang lebih seperti itu , bapak..
+
